@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <style>
-    <%@include file='/WEB-INF/views/css/table_dark.jsp' %>
+    <%@include file='/WEB-INF/views/css/table_dark.css' %>
 </style>
 <html>
 <head>
