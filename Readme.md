@@ -6,10 +6,12 @@
 
 - Java Database Connectivity (JDBC);
 - MySQL;
-- CRUD methods;
-- DAO Pattern;
+- Java 11
+- jsp
+- jstl
+- html
 - Apache Tomcat 9.0.73;
-- Servlet interface;
+- Java Servlet
 - Apache Maven;
 
 ####  **Features :**
