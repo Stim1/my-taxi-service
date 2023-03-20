@@ -4,13 +4,13 @@
 
 ### **Technologies used in application :** 
 
-- Java 11
+- Java 11;
 - MySQL;
 - Apache Tomcat 9.0.73;
 - Apache Maven;
-- jsp
-- jstl
-- html
+- jsp;
+- jstl;
+- html;
 - Java Servlet;
 - Java Database Connectivity (JDBC);
 
