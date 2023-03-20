@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="taxi-service:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0c21ed1a-9788-491e-9405-bd622c0a47e9" name="Changes" comment="taxi-service v 1.1">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-cachefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-checker.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/checkstyle-result.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/init_db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/LogoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/car/AddCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/car/AddDriverToCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/car/DeleteCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/car/GetAllCarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/car/GetMyCurrentCarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/driver/AddDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/driver/DeleteDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/driver/GetAllDriversController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/manufacturer/AddManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/manufacturer/DeleteManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/controller/manufacturer/GetAllManufacturersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/dao/CarDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/dao/CarDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/dao/DriverDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/dao/DriverDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/dao/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/dao/ManufacturerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/dao/ManufacturerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/exception/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/exception/DataProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/filter/AuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/lib/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/lib/Inject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/lib/Injector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/lib/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/model/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/model/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/model/Manufacturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/AuthenticationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/CarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/DriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/DriverServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/GenericService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/ManufacturerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/service/ManufacturerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/taxi/util/ConnectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/init_db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/LogoutController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/AddCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/AddDriverToCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/DeleteCarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/GetAllCarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/car/GetMyCurrentCarsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/AddDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/DeleteDriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/driver/GetAllDriversController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/AddManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/DeleteManufacturerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/controller/manufacturer/GetAllManufacturersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/CarDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/CarDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/DriverDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/DriverDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/GenericDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/ManufacturerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/dao/ManufacturerDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/exception/AuthenticationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/exception/DataProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/filter/AuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Dao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Inject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Injector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/lib/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/model/Manufacturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/AuthenticationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/AuthenticationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/CarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/DriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/DriverServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/GenericService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/ManufacturerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/service/ManufacturerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/classes/taxi/util/ConnectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.32.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.21.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/cars/drivers/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/drivers/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/drivers/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/manufacturers/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/views/manufacturers/all.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/taxi-service-1.0-SNAPSHOT/web.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2N5nD56xasnE7OenHvk8Dq4hd9J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/stim1/IdeaProjectsUltimate/taxi-service/src/main/webapp/WEB-INF/views/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service\src\main\webapp\WEB-INF\views\css" />
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service\src\main\java\taxi" />
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service\src\main\java" />
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service" />
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service\src\main\java\java\taxi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service\src" />
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service\src\main\resources" />
+      <recent name="C:\Users\stim1\IdeaProjectsUltimate\taxi-service\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.73" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="taxi-service:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="fd4479df-d215-4c65-9e56-4449dfd9c84d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51303" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="taxi-service:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c21ed1a-9788-491e-9405-bd622c0a47e9" name="Changes" comment="" />
+      <created>1678962688827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678962688827</updated>
+      <workItem from="1678962689965" duration="3231000" />
+      <workItem from="1678965966182" duration="169000" />
+      <workItem from="1678966142081" duration="4183000" />
+      <workItem from="1678979655569" duration="814000" />
+      <workItem from="1679226390648" duration="315000" />
+      <workItem from="1679236755315" duration="1557000" />
+      <workItem from="1679308588088" duration="320000" />
+    </task>
+    <task id="LOCAL-00001" summary="taxi-service v 1.1">
+      <created>1678980011763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678980011763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="taxi-service v 1.1">
+      <created>1678980302334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678980302334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="taxi-service v 1.1">
+      <created>1679238193097</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679238193097</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="taxi-service v 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="taxi-service v 1.1" />
+  </component>
+</project>
